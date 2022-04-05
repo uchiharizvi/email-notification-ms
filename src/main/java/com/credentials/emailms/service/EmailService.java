@@ -1,5 +1,7 @@
 package com.credentials.emailms.service;
 
+import org.springframework.http.ResponseEntity;
+
 public interface EmailService {
-    String sendEmail(String recipient);
+    ResponseEntity<String> sendEmail(String recipient);
 }
