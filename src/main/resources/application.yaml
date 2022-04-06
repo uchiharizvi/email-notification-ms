@@ -1,0 +1,8 @@
+aws:
+  us-east-1:
+    endpoint: feedback-smtp.us-east-1.amazonses.com
+  sendmail:
+    resource: /v2/email/outbound-emails
+  access-key:
+  secret:
+  region: us-east-1
